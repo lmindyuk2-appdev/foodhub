@@ -18,7 +18,7 @@
   <!-- Make it responsive to small screens -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <link href="/assets/my_styles.css" rel="stylesheet">
+  <link href="/assets/my_custom_styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -50,37 +50,35 @@
 
     </div>
   </nav>
-  <a href="https://www.google.com">
-    FOODHUB
-  </a>
-  <a href="https://www.google.com">
-    Sign In
-  </a>
-  <a href="https://www.google.com">
-    <i class="fa fa-shopping-bag fa-lg"></i>
-  </a>
 
-  <h2>
-    Who delivers in your neighborhood?
-  </h2>
+  <div class="container-fluid who-delivers">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
 
-  <form>
-    <div>
-      <label for="address">
-        Enter your address below.
-      </label>
+          <h2 class="mb-2">
+            Who delivers in your neighborhood?
+          </h2>
 
-      <div>
-        <i class="fa fa-map-marker"></i>
+        <form>
+          <div>
+            <label for="address">
+              Enter your address below.
+            </label>
 
-        <input id="address" type="text" placeholder="Street address, city, state">
+            <div>
+              <i class="fa fa-map-marker"></i>
+
+              <input id="address" type="text" placeholder="Street address, city, state">
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-block">
+            Find Food
+          </button>
+        </form>
       </div>
     </div>
-
-    <button>
-      Find Food
-    </button>
-  </form>
+  </div>
 
   <h2>
     How to Foodhub
